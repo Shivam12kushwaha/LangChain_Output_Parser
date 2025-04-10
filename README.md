@@ -8,4 +8,4 @@
 ### (3) StructuredOutputparser
 ####    StructuredOutputParser is an output parser in LangChian that helps extract strucutred JSON data from LLM response based on predefined field schemes. It works by defining a list of fields (Response Schema) that the model shoould return, ensurin the output follows a structured format. But it has disadvantage Data Validation. To overcome this problem, we use PydanticOutputParser. 
 ### (4) PydanticOutputParser
-####    Is is a structured Output parser in LangChain that uses Pydantic models to enforce schema validation when processing LLM responses.
+####    It is a structured Output parser in LangChain that uses Pydantic models to enforce schema validation when processing LLM responses.
